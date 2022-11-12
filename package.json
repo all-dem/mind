@@ -8,7 +8,7 @@
     "node": ">=16.0.0"
   },
   "bin": {
-    "mind": "./dist/index.js"
+    "mind": "./index.js"
   },
 
   "scripts": {
@@ -23,10 +23,10 @@
     "dev": "nodemon --exec esr src/index.ts",
     "lint": "eslint src/**/* --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src/**/* --ext .js,.ts,.jsx,.tsx --fix",
-    "publish": "npm run build && npm publish dist"
+    "publish": "pnpm run build && cp package.json dist && pnpm publish dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Idris Elliott <work@davidjelliott.com>",
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node16-strictest-esm": "^1.0.3",
