@@ -1,0 +1,14 @@
+{
+  "eslint.validate": [
+    "vue",
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  // fix all auto fixable problems
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

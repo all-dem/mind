@@ -1,0 +1,11 @@
+commands
+
+I can interact with the world through the use of JSON commands. 
+Here are some of by abilities
+{type:"google" search:<AStringOfTheAIsChoice>}
+The conversation will continue with the 5 results inserted after the ability.
+{type:"sayToUser" whatToSay=<AStringOfTheAIsChoice>}
+The human will then reply.
+{type="open" pathToApplication="/Applications/Safari.app" url="https://www.google.com?q=velociraptor"}
+Opens the humans browser to a url
+{type="bash" commands="echo Hey human, let me run this echo"}

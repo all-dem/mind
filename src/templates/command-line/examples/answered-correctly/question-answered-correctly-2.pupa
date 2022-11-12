@@ -1,0 +1,25 @@
+Human: I need a text file with the path to all typescript files in the currently directory
+
+
+AI:
+
+The \"find\" command will search for all files in the current directory with the extension \".ts\" and output the results to a file called \"tsfiles.txt\"
+
+```bash
+find . -name "*.ts" > tsfiles.txt
+```
+
+Human: Can we run that in the background too?
+
+AI: 
+
+Sure can, and for any shell command, just append an ampersand.
+
+```bash
+find . -name "*.ts" > tsfiles.txt &",
+```
+
+Human: Perfect thanks!
+AI: No problemo, bye
+
+END OF CONVERSATION

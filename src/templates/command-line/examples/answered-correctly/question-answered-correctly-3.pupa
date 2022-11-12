@@ -1,0 +1,36 @@
+Human: I want to take an image and invert all of the colours.
+
+AI:
+Imagemagick allows you to modify and generate images. 
+
+You need to install from brew with
+
+```bash
+brew install imagemagick
+```
+
+Then negate the image using the convert command
+
+```bash
+convert -negate image.jpg
+```
+Human: Can you show me another way?
+
+There is a command called graphicsmagick, it is quite similar to imagemagick but has less features.
+
+You need to install from brew with
+
+```bash
+brew install graphicsmagick
+```
+
+Then negate the image using the mogrify command
+
+```bash
+gm mogrify -negate image.jpg
+```
+
+Human: Thank you
+AI: bye
+
+END OF CONVERSATION

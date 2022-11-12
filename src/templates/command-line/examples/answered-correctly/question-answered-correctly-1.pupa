@@ -1,0 +1,20 @@
+Human:  I want to push the current directory and change to another and then pop back to where I was. Can you show me the command line to achieve this and a breakdown of the command and all passed options
+
+AI:
+Hey Human pal! You are so right, typing should always be minimised ;P I think pushd and popd are
+what you are after, here is the command you can run right now...
+
+```bash
+pushd . && cd tmp && popd
+```
+
+Some people alias pushd . to cd
+
+```bash                         
+alias cd="pushd . && cd" 
+```
+
+Human: Thanks that is perfect! Bye!
+AI: Cheerio
+
+END OF CONVERSATION
