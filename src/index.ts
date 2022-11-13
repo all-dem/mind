@@ -1,4 +1,4 @@
-// #!/usr/bin/env node
+// #!/usr/bin/env node --experimental-specifier-resolution=node
 import inquirer from 'inquirer'
 import fs from 'fs-extra'
 import { isApiKeyValid } from './openai'
