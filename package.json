@@ -1,14 +1,14 @@
 {
   "name": "alicemind",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Alice Mind is an MIT licensed command line tool for building training data and using Artificial General Intelligence.",
   "type": "module",
-  "exports": "./index.js",
+  "exports": "./dist/index.js",
   "engines": {
     "node": ">=16.0.0"
   },
   "bin": {
-    "alicemind": "./index.js"
+    "alicemind": "./dist/index.js"
   },
 
   "scripts": {
