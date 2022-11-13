@@ -10,6 +10,10 @@
   "bin": {
     "alicemind": "./dist/index.js"
   },
+  "files": [
+    "dist",
+    "package.json"
+  ],
 
   "scripts": {
     "clean": "rimraf dist node_modules dist coverage",
