@@ -23,7 +23,7 @@
     "dev": "nodemon --exec esr src/index.ts",
     "lint": "eslint src/**/* --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src/**/* --ext .js,.ts,.jsx,.tsx --fix",
-    "publish": "pnpm run build && cp package.json dist && pnpm publish dist"
+    "publish": "pnpm run build && pnpm publish dist"
   },
   "keywords": [],
   "author": "Idris Elliott <work@davidjelliott.com>",
