@@ -1,6 +1,5 @@
-// #!/usr/bin/env node --experimental-specifier-resolution=node
 import inquirer from 'inquirer'
-import fs from 'fs-extra'
+import * as fs from 'fs-extra'
 import { isApiKeyValid } from './openai'
 import { getCompletionFromOpenAI } from './openai-bash-help'
 import { buildQuestion } from './openai-completion-builder'

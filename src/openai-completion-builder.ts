@@ -1,13 +1,8 @@
-import os from 'os'
+import * as os from 'os'
 import fs from 'fs-extra'
 import pupa from 'pupa'
 import fg from 'fast-glob'
 import path from 'path'
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
 
 const platform = os.platform()
 

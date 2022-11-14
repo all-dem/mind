@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from 'openai'
 import Ajv from 'ajv'
-import fastLevenshtein from 'fast-levenshtein'
+import * as fastLevenshtein from 'fast-levenshtein'
 const ajv = new Ajv()
 
 export async function getCompletionFromOpenAI(
